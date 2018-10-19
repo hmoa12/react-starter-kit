@@ -2,7 +2,7 @@ import path from 'path';
 import html_webpack_plugin from 'html-webpack-plugin';
 
 module.exports = {
-    entry: path.join(__dirname, 'src', 'index.jsx'),
+    entry: path.join(__dirname, 'src', 'index.js'),
 
     output: {
         path: path.join(__dirname, 'build'),
