@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom';
 
 
 const Home = () => ({
+
   render() {
+    
     return (
       <div className='innerWrapper'>
         <h2> Hey guys welcome aboard </h2>
