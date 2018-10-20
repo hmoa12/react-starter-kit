@@ -4,8 +4,8 @@ import { Switch, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './components/App';
-import Home from './components/Home/Home';
-import About from './components/About/About';
+import Home from './components/Home';
+import About from './components/About';
 
 
 const Root = () => ({
