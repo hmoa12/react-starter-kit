@@ -8,10 +8,8 @@ import Home from './components/Home';
 import About from './components/About';
 
 
-const Root = () => ({
-
+class Root extends React.Component {
   render() {
-
     return(
       <App>
         <BrowserRouter>
@@ -22,10 +20,8 @@ const Root = () => ({
         </BrowserRouter>
       </App>
     );
-
   }
-
-});
+}
 
 
 ReactDOM.render(
