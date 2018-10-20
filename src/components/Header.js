@@ -1,4 +1,8 @@
 import React from 'react';
+import { Jumbotron } from 'reactstrap';
+
+import 'styles/components/header.scss';
+
 
 
 const Header = () => ({
@@ -6,13 +10,15 @@ const Header = () => ({
   render() {
 
     return(
-      <div className='header'>
-          <h3> Header goes here </h3>
-      </div>
+      <Jumbotron>
+        <h3> Header goes here </h3>
+      </Jumbotron>
     );
 
   }
 
 })
+
+
 
 export default Header;

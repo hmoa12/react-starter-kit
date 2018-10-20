@@ -10,9 +10,9 @@ const App = props => ({
 
     return(
       <div>
-        <Header />
+        <header><Header /></header>
           <main>{props.children}</main>
-        <Footer />
+        <footer><Footer /></footer>
       </div>
     );
 
