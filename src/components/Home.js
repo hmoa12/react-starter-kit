@@ -11,7 +11,7 @@ import 'styles/components/home.scss';
 const Home = () => ({
 
   render() {
-    
+
     return (
         <Layout>
           <Content style={{ background: '#fff', minHeight: 480 }}>
