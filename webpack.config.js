@@ -9,7 +9,7 @@ module.exports = {
         filename: 'index.bundle.js'
     },
 
-    mode: 'production',
+    mode: 'development',
 
     resolve: {
         modules: [path.resolve(__dirname, 'src'), 'node_modules']

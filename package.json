@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/nabstar/react-starter-kit#readme",
   "dependencies": {
+    "antd": "^3.10.1",
+    "babel-plugin-import": "^1.10.0",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-router-dom": "4.3.1"

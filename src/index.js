@@ -7,6 +7,7 @@ import App from './components/App';
 import Home from './components/Home';
 import About from './components/About';
 
+import 'antd/dist/antd.css';
 
 class Root extends React.Component {
   render() {
