@@ -1,10 +1,18 @@
-.container h2 {
+.heading {
   font-weight: bold;
-  margin-bottom: 50px;
-}
-
-.intro {
-  font-weight: bold;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 350px;
+  line-height: 350px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
 }

@@ -7,8 +7,7 @@ import App from './components/App';
 import Home from './components/Home';
 import About from './components/About';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'antd/dist/antd.css';
 
 class Root extends React.Component {
   render() {

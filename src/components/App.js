@@ -1,19 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './Header';
-import Footer from './Footer';
+import { Layout } from 'antd';
+
+const { Content } = Layout;
+
+import Header from './HeaderComp';
+import Footer from './FooterComp';
 
 const App = props => ({
 
   render() {
 
     return(
-      <div>
-        <header><Header /></header>
-          <main>{props.children}</main>
-        <footer><Footer /></footer>
-      </div>
+      <Layout>
+        <Header />
+          <Content>
+            {props.children}
+          </Content>
+        <Footer />
+      </Layout>
     );
 
   }
