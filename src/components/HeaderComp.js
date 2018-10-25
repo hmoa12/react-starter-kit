@@ -1,6 +1,7 @@
 import React from 'react';
-
 import { Layout, Input, Col, Row, Divider, Avatar, Menu, Dropdown } from 'antd';
+
+import '../styles/components/header.scss';
 
 const { Header } = Layout;
 const Search = Input.Search;
@@ -8,7 +9,7 @@ const Search = Input.Search;
 
 import 'styles/components/header.scss';
 const avatarDropDown = (
-  <Menu>
+  <Menu className="dropDown">
     <Menu.Item key={0}>
       <a href="#">Your profile</a>
     </Menu.Item>
@@ -34,19 +35,19 @@ const HeaderComp = () => ({
               <Col span={4}>
                 <div className='logo' />
               </Col>
-              <Col span={10}>
+              <Col span={4}>
                 <Search
                   placeholder="Search Designs"
                   onSearch={value => console.log(value)}
                   style={{ width: 250 }}
                 />
               </Col>
-              <Col>
+              <Col offset={6}>
                 <h3>Customer Name</h3>
               </Col>
               <Col>
                 <Dropdown overlay={avatarDropDown} placement={"bottomCenter"} trigger={['click']}>
-                  <Avatar icon='user' />
+                  <Avatar size={44} icon='user' />
                 </Dropdown>
               </Col>
             </Row>

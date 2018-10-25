@@ -11,3 +11,23 @@
   margin: 16px 24px 16px 0;
   float: left;
 }
+
+.dropDown {
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  background: green;
+  color: green;
+
+  .ant-dropdown-menu-item {
+    padding: 12px;
+    
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+Avatar {
+  margin-right: 40px;
+}
