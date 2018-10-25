@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Col, Row, Layout } from 'antd';
+import { Col, Row, Layout, Icon } from 'antd';
 
 const { Footer } = Layout;
 
@@ -26,9 +26,9 @@ const FooterComp = () => ({
             <div className="footer_text">
                 <h2>Get in touch</h2>
                 <ul>
-                  <li><a href="#">Like us on Facebook</a></li>
-                  <li><a href="#">Follow us on Instagram</a></li>
-                  <li><a href="#">Follow us on Twitter</a></li>
+                  <li><a href="#"><Icon type="facebook" theme="filled" className="icon"/> Like us on Facebook</a></li>
+                  <li><a href="#"><Icon type="instagram" theme="filled" className="icon"/> Follow us on Instagram</a></li>
+                  <li><a href="#"><Icon type="twitter" theme="outlined" className="icon"/> Follow us on Twitter</a></li>
                 </ul>
               </div>
             </Col>
